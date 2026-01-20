@@ -46,7 +46,7 @@ window.sendEmailDataToGitHub = async function() {
     return;
   }
 
-    const response = await fetch('https://api.github.com/repos/VistaClients/ecofriendly/dispatches', {
+    const response = await fetch('https://api.github.com/repos/VistaClients/wvpe368631/dispatches', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
