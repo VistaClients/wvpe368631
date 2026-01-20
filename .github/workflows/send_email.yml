@@ -4,6 +4,10 @@ name: Send Contact Email
 on:
   repository_dispatch:
     types: [send_email]
+    
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   send-email:
